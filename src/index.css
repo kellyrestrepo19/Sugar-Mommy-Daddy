@@ -85,7 +85,7 @@ main {
 .form3 {
   width: 50%;
   height: 50vh;
-  border: 1solid#F2DF3A;
+  border: 1px solid#F2DF3A;
   border-radius: 20px;
   margin-top: 30px;
   display: flex;
