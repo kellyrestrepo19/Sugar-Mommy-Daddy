@@ -1,171 +1,189 @@
 @import url('https://fonts.googleapis.com/css2? family= JetBrains+Mono:wght@200 & display=swap');
-body{
-    font-family: 'JetBrains Mono', monospace;
-    background-color: #0078AA
-    
-}
-main{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
 
-}
-.navbar{
-    width: 100%;
-    height: 100px;
-    background-color: #F2DF3A;
-}
-.beneficiarios{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 50%;
-    height: 50vh;
-    
+body {
+  font-family: sans-serif;
+  font-family: 'JetBrains Mono', monospace;
+  margin: 0;
+  padding: 0;
+  background: url(sugar.jpg);
+  background-size: cover;
+  background-position: center;
 
-}
-.form1{
-    width: 57%;
-    height: 50vh;
-    border: .5rem solid#F2DF3A ;
-    border-radius: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.foto{
-  margin-left:14px;
-}
-
-.productos-ayuda{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 50%;
-    height: 50vh;
-}
-
-.form2{
-    width: 50%;
-    height: 50vh;
-    border: .5rem solid#F2DF3A ;
-    border-radius: 20px;
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
 }
 
-.presupuesto{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 50%;
-    height: 50vh;
-}
-.form3{
-    width: 50%;
-    height: 50vh;
-    border: .5rem solid#F2DF3A ;
-    border-radius: 20px;
-    margin-top: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 
 }
-.formularios{
-    width: 50%;
-    margin-top: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0px 20px;
-    margin: 5px;
-    margin-left: 60px;
-    
+
+.navbar {
+  width: 100%;
+  height: 100px;
+  background-color: #F2DF3A;
 }
-.form3_item{
-    margin-top: 20px;
-    border: none;
-    outline: none;
-    border-bottom: 1px solid #0078AA;
-    height: 30px;
-    cursor: pointer;
-    width: 220px;
+
+.beneficiarios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  height: 50vh;
+
+
+}
+
+.form1 {
+  width: 57%;
+  height: 50vh;
+  border: 1px solid#F2DF3A;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.foto {
+  margin-left: 14px;
+}
+
+.productos-ayuda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  height: 50vh;
+}
+
+.form2 {
+  width: 50%;
+  height: 50vh;
+  border: 1px solid#F2DF3A;
+  border-radius: 20px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.presupuesto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  height: 50vh;
+}
+
+.form3 {
+  width: 50%;
+  height: 50vh;
+  border: 1solid#F2DF3A;
+  border-radius: 20px;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.formularios {
+  width: 50%;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 20px;
+  margin: 5px;
+  margin-left: 60px;
+
+}
+
+.form3_item {
+  margin-top: 20px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #0078AA;
+  height: 30px;
+  cursor: pointer;
+  width: 220px;
 }
 
 .footer-basic {
-    margin-top: 30px;
-    background-color:#F2DF3A;
-    color:#0078AA;
-    display: flex;
-    justify-content: center;
-  
-  }
-  
-  .footer-basic ul {
-    padding:0;
-    list-style:none;
-    text-align:center;
-    font-size:18px;
-    line-height:1.6;
-    margin-bottom: 10px;
-  }
-  
-  .footer-basic li {
-    padding:0 10px;
-  }
-  
-  .footer-basic ul .img, img{
-    color:inherit;
-    text-decoration:none;
-    opacity:0.8;
-  }
-  
-  .footer-basic .imagenes {
-    text-align:center;
-    padding-bottom:25px;
-  }
-  
-  .footer-basic .imagenes > .img {
-    font-size:24px;
-    width:35px;
-    height:35px;
-    line-height:40px;
-    display:inline-block;
-    text-align:center;
-    margin:0 8px;
-    margin-top: 10px;
-    color:inherit;
-  }
-  
-  .list-inline{
-    border-bottom: 1px solid #0078AA;
-    width: 300px;
-  }
+  margin-top: 30px;
+  background-color: #F2DF3A;
+  color: #0078AA;
+  display: flex;
+  justify-content: center;
 
-  .footer-basic{
-    margin-top: 110px;
-  }
-  .imagen{
-    width: 400px;
-    height: 250px;
-    border-radius: 20px;
-    margin-left: 100px;
-    margin-top: 20px;
-  }
-  .img2{
-    width: 400px;
-    height: 250px;
-    border-radius: 20px;
-    margin-left: 100px;
-    margin-top: 20px;
+}
 
-  }
+.footer-basic ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.footer-basic li {
+  padding: 0 10px;
+}
+
+.footer-basic ul .img,
+img {
+  color: inherit;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.footer-basic .imagenes {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.footer-basic .imagenes>.img {
+  font-size: 24px;
+  width: 35px;
+  height: 35px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 8px;
+  margin-top: 10px;
+  color: inherit;
+}
+
+.list-inline {
+  border-bottom: 1px solid #0078AA;
+  width: 300px;
+}
+
+.footer-basic {
+  margin-top: 110px;
+}
+
+.imagen {
+  width: 400px;
+  height: 250px;
+  border-radius: 20px;
+  margin-left: 100px;
+  margin-top: 20px;
+}
+
+.img2 {
+  width: 400px;
+  height: 250px;
+  border-radius: 20px;
+  margin-left: 100px;
+  margin-top: 20px;
+
+}
