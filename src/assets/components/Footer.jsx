@@ -2,23 +2,23 @@ const Footer = () => {
     return (
         <section className="footer-basic">
         <footer>
-          <section className="social">
-            <img className="a" src="../../../public/instagram.png" alt="" />
-            <img className="a" src="../../../public/facebook.png" alt="" />
-            <img className="a" src="../../../public/twitter.png" alt="" />
+          <section className="imagenes">
+            <img className="img" src="../../../public/instagram.png" alt="" />
+            <img className="img" src="../../../public/facebook.png" alt="" />
+            <img className="img" src="../../../public/twitter.png" alt="" />
           </section>
   
   
           
           <ul className="list-inline">
             <li className="list-inline-item">
-              <a className="link" href="#">Home</a>
+              <a className="link" href="#">Contactanos</a>
             </li>
             <li className="list-inline-item">
-              <a className="link" href="#">Servicios</a>
+              <a className="link" href="#">Presta tus servisios</a>
             </li>
             <li className="list-inline-item">
-              <a className="link" href="#">About</a>
+              <a className="link" href="#">A cambio de cosas</a>
             </li>
           </ul>
         
