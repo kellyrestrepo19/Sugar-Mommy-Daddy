@@ -1,6 +1,157 @@
+@import url('https://fonts.googleapis.com/css2? family= JetBrains+Mono:wght@200 & display=swap');
 body{
-    background-color: blue;
-    width:100%;
-    height:100%;
+    font-family: 'JetBrains Mono', monospace;
+    background-color: #0078AA
     
 }
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    background-color: #F2DF3A;
+}
+.beneficiarios{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 50vh;
+    
+
+}
+.form1{
+    width: 50%;
+    height: 50vh;
+    border: .5rem solid#F2DF3A ;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.productos-ayuda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 50vh;
+}
+
+.form2{
+    width: 50%;
+    height: 50vh;
+    border: .5rem solid#F2DF3A ;
+    border-radius: 20px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.presupuesto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 50vh;
+}
+.form3{
+    width: 50%;
+    height: 50vh;
+    border: .5rem solid#F2DF3A ;
+    border-radius: 20px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.formularios{
+    width: 50%;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px;
+    margin: 5px;
+    
+}
+.form3_item{
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #0078AA;
+    height: 30px;
+    cursor: pointer;
+    width: 220px;
+}
+
+.footer-basic {
+    margin-top: 30px;
+    background-color:#F2DF3A;
+    color:#0078AA;
+    display: flex;
+    justify-content: center;
+  
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom: 10px;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul .a, a{
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > .a {
+    font-size:24px;
+    width:35px;
+    height:35px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    margin:0 8px;
+    margin-top: 10px;
+    color:inherit;
+  }
+  
+  .list-inline{
+    border-bottom: 1px solid #0078AA;
+    width: 300px;
+  }
+
+  .footer-basic{
+    margin-top: 110px;
+  }
+  .imagen{
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+  }
