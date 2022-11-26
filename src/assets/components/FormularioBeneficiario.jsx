@@ -8,7 +8,9 @@ const FormularioBeneficiario = () => {
                 <input class="formulario-beneficiario" placeholder="Universidad" type="text" />
                 <input class="formulario-beneficiario" placeholder="Edad" type="text" />
                 <input class="formulario-beneficiario" placeholder="Correo" type="email" />
+                <section class="foto">
                 <input class="formulario-beneficiario" placeholder="Telefono" type="file"/>
+                </section>
                 <input class="btnGuardar" type="submit" value="Agregar" />
             </form>
         </section>

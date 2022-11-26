@@ -18,7 +18,7 @@ const Footer = () => {
               <a className="link" href="#">Presta tus servisios</a>
             </li>
             <li className="list-inline-item">
-              <a className="link" href="#">A cambio de cosas</a>
+              <a className="link" href="#">A cambio de ciertas cosas...</a>
             </li>
           </ul>
         

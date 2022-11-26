@@ -28,13 +28,16 @@ main{
 
 }
 .form1{
-    width: 50%;
+    width: 57%;
     height: 50vh;
     border: .5rem solid#F2DF3A ;
     border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.foto{
+  margin-left:14px;
 }
 
 .productos-ayuda{
@@ -85,6 +88,7 @@ main{
     justify-content: center;
     padding: 0px 20px;
     margin: 5px;
+    margin-left: 60px;
     
 }
 .form3_item{
@@ -151,7 +155,17 @@ main{
     margin-top: 110px;
   }
   .imagen{
-    width: 500px;
-    height: 300px;
+    width: 400px;
+    height: 250px;
     border-radius: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+  }
+  .img2{
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+
   }
