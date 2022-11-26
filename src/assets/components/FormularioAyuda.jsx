@@ -6,7 +6,7 @@ const FormularioAyuda=()=>{
                 <input class="formulario-ayuda" type="text" placeholder="Nombre del prorducto"/>
                 <input class="formulario-ayuda" type="text" placeholder="Descripción producto"/>
                 <input class="formulario-ayuda" type="text" placeholder="Tienda"/>
-                <input class="formulario-ayuda" type="number" placeholder="$ Valor del producto"/>
+                <input class="formulario-ayuda" type="number" placeholder="$ Valor"/>
                 <input class="formulario-ayuda" type="number" placeholder="Referencia"/>
                 <input class="btnGuardar" type="submit" value="Agregar"/>
             </form>

@@ -13,7 +13,7 @@ const Header = () => {
                 <a class="nav-link active" aria-current="page" href="#">Los servicios que deseo</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Lo que estoy dispuesto a dar</a>
+                <a class="nav-link" href="#">Lo que estoy dispuesto a ofrecer</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">Contacto</a>
